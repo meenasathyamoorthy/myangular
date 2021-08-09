@@ -1,5 +1,5 @@
 {
-  "name": "myangular",
+  "name": "y",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "-": "^0.0.1",
     "@angular/animations": "~12.1.2",
     "@angular/common": "~12.1.2",
     "@angular/compiler": "~12.1.2",
@@ -18,7 +19,13 @@
     "@angular/platform-browser": "~12.1.2",
     "@angular/platform-browser-dynamic": "~12.1.2",
     "@angular/router": "~12.1.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^3.4.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
+    "save": "^2.4.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
   },
@@ -35,5 +42,9 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.3.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.",
+  "main": "karma.conf.js",
+  "author": "",
+  "license": "ISC"
 }
