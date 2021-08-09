@@ -30,9 +30,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/dist/bootstrap/css/bootstrap.min.css",
+              "src/dist/bootstrap/css/bootstrap-theme.min.css",
+              "src/dist/font-awesome/css/all.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/dist/bootstrap/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,9 +102,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/dist/bootstrap/css/bootstrap.min.css",
+              "src/dist/bootstrap/css/bootstrap-theme.min.css",
+              "src/dist/font-awesome/css/all.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/dist/bootstrap/js/bootstrap.min.js"
+            ]
           }
         }
       }
